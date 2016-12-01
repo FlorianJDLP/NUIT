@@ -1,0 +1,12 @@
+public class First {
+	
+	Button insc = new Button ();
+
+	insc.setOnClickListener (new View.OnClickListener() {
+		
+		public void OnClick(View v) {
+			Intent intent = new Intent (First.this, Inscription.class);
+			startActivity(intent);
+		}
+	});
+}
