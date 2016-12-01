@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <Button
+        android:text="Créer le projet"
+        android:layout_width="119dp"
+        android:layout_height="64dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="35dp"
+        android:id="@+id/button3" />
+
+    <TextView
+        android:text="Nom du projet :"
+        android:layout_height="37dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="21dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="47dp"
+        android:id="@+id/textView3"
+        android:textSize="18sp"
+        android:layout_width="124dp"
+        android:textStyle="normal|bold|italic" />
+
+    <EditText
+        android:layout_width="163dp"
+        android:layout_height="68dp"
+        android:inputType="textPersonName"
+        android:text="Prénom"
+        android:ems="10"
+        android:id="@+id/Pname"
+        android:layout_marginRight="14dp"
+        android:layout_marginEnd="14dp"
+        android:layout_alignBottom="@+id/Name"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_alignEnd="@+id/textView2" />
+
+    <TextView
+        android:text="_________________________________________________________"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_alignBaseline="@+id/Texte"
+        android:layout_alignBottom="@+id/Texte"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="__________________"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:layout_alignBaseline="@+id/textView3"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Nom"
+        android:ems="10"
+        android:id="@+id/editText3"
+        android:layout_alignBaseline="@+id/textView3"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="124dp"
+        android:layout_height="72dp"
+        android:inputType="textPersonName"
+        android:text="Nom"
+        android:ems="10"
+        android:id="@+id/Name"
+        android:layout_row="0"
+        android:layout_column="9"
+        android:layout_below="@+id/textView3"
+        android:layout_toLeftOf="@+id/Pname"
+        android:layout_toStartOf="@+id/Pname"
+        android:layout_marginTop="15dp" />
+
+    <Button
+        android:text="Ajouter"
+        android:layout_width="147dp"
+        android:layout_height="67dp"
+        android:id="@+id/button2"
+        android:layout_row="8"
+        android:layout_column="7"
+        android:layout_below="@+id/Pname"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="Personne pour le projet :"
+        android:layout_width="match_parent"
+        android:layout_height="165dp"
+        android:id="@+id/Texte"
+        android:textIsSelectable="false"
+        android:textSize="35sp"
+        android:textStyle="normal|bold|italic"
+        android:layout_below="@+id/button2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
